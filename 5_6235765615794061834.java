@@ -10,8 +10,8 @@ public class DataAndAlgorithmLab2 {
         OrdArray ord = new OrdArray(7);
         ord.insert(2);
         ord.insert(9);
-        ord.insert(7);
-        ord.insert(3);
+        ord.insert(7) ;
+        ord.insert(3) ;
         ord.display();
         ord.delete(7);
         ord.display();
