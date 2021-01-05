@@ -10,7 +10,7 @@ public class DataAndAlgorithmLab1  {
         NoDupArray x = new NoDupArray(6);
         x.insert(9);
         x.insert(7);
-        x.insert(3);
+        x.insert(3);   
         x.insert(8);
         x.display();
         x.delete(8);

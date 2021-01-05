@@ -1,4 +1,4 @@
-
+        
 package data.and.algorithm.lab2;
 
 
