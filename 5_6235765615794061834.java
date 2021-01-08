@@ -5,7 +5,7 @@ package data.and.algorithm.lab2;
 public class DataAndAlgorithmLab2 {
 
   
-    public static void main(String[] args) {
+    public static void main(String[] args)      {
         
         OrdArray ord = new OrdArray(7);
         ord.insert(2);
