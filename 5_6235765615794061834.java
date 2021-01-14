@@ -52,7 +52,7 @@ class OrdArray {
         }
         for (int i = 0; i < nElements; i++) {
             if (value < a[i]) {
-                for (int j = nElements - 1; j >= i; j--) {
+                for (int j = nElements - 1; j >= i; j--    ) {
                     this.a[j + 1] = a[j];
                 }
                 this.a[i] = value;
@@ -72,7 +72,7 @@ class OrdArray {
             System.out.println("value not found.deletion terminated");
             return false;
         } else {
-            for (int i = index; i < nElements - 1; i++) {
+            for (int i = index; i < nElements - 1; i++    ) {
                 this.a[i] = this.a[i + 1];
             }
             this.nElements--;
@@ -83,7 +83,14 @@ class OrdArray {
 
     void display() { // display array contents
         //Fill the body
-        for (int i = 0; i < this.nElements; i++) {
+        for (int i = 0; i < this.nElements; i++  ) {
+            System.out.print(this.a[i] + " ");
+        }
+        System.out.println();
+    }
+	 void display() { // display array contents
+        //Fill the body
+        for (int i = 0; i < this.nElements; i++  ) {
             System.out.print(this.a[i] + " ");
         }
         System.out.println();
