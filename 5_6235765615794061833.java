@@ -51,6 +51,39 @@ class NoDupArray {
             }
         }
     }
+	class NoDupArray {
+
+    private long[] a;
+    private int nElement;
+
+    public NoDupArray(int max) {
+        this.a = new long[max];
+        this.nElement = 0;
+    }
+
+    public boolean find(long SearchKey) {
+        for (int i = 0; i < this.nElement; i++) {
+            if (this.a[i] == SearchKey) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void insert(long value) {
+        if (this.nElement == a.length) {
+            System.out.println("Array is full");
+            return;
+        } else {
+            if (find(value)) {
+                System.out.println("value already exsists.inserion terminte");
+            } else {
+                a[this.nElement] = value;
+                this.nElement++;
+            }
+        }
+    }
+    
     
     public boolean delete(long value){
     for(int i=0;i<this.nElement;i++){
