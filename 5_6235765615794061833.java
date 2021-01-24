@@ -53,17 +53,17 @@ class NoDupArray {
     }
 	class NoDupArray {
 
-    private long[] a;
+    private long[] a; 
     private int nElement;
-
+ 
     public NoDupArray(int max) {
-        this.a = new long[max];
+        this.a = new long[max]; 
         this.nElement = 0;
     }
 
     public boolean find(long SearchKey) {
         for (int i = 0; i < this.nElement; i++) {
-            if (this.a[i] == SearchKey) {
+            if (this.a[i] == SearchKey)  {
                 return true;
             }
         }
