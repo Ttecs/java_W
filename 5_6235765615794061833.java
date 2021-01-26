@@ -5,14 +5,14 @@ package data.and.algorithm.lab1;
 public class DataAndAlgorithmLab1  {
 
    
-    public static void main(String[]    args)  {
+    public static void main(String[]    args)  {  
        
-        NoDupArray x = new NoDupArray(6);
+        NoDupArray x = new NoDupArray(6);   
         x.insert(9);
         x.insert(7);
-        x.insert(3);   
+        x.insert(3);     
         x.insert(8);
-        x.display();
+        x.display();  
         x.delete(8);
         x.display();
     }
